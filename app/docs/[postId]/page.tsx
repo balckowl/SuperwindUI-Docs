@@ -11,7 +11,7 @@ export async function generateMetadata({ params: { postId } }: { params: { postI
         openGraph: {
             title: `${post.title} | SuperwindUI`,
             description: `${post.description}`,
-            url: `superwindui.vercel.app/${postId}`,
+            url: `superwindui.netlify.app/${postId}`,
             siteName: 'SuperwindUI',
             images: [
                 {
