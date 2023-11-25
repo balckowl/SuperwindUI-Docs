@@ -13,7 +13,7 @@ export const metadata: Metadata = {
       {
         width: '1200',
         height: '675',
-        url: '/images/superwindui.png',
+        url: 'https://superwindui.netlify.app/images/superwindui.png',
       }
     ],
     locale: 'jp',
