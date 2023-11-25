@@ -4,4 +4,4 @@
 
 ## Technology Stack
 
-![技術スタック](https://github.com/balckowl/SuperwindUI-Docs/tree/master/public/images/technologyStack.jpg)
+![技術スタック](https://github.com/balckowl/SuperwindUI-Docs/blob/master/public/images/technologyStack.jpg)
