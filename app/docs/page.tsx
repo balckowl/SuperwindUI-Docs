@@ -3,8 +3,23 @@ import { getList } from "../../libs/microcms";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title : 'Docs | SuperwindUI',
-    description: ''
+    title: 'Docs | SuoerwindUI',
+    description: 'モダンなUIを超速で開発できる次世代のコンポーネントライブラリの利用方法を提供します。',
+    openGraph: {
+        title: 'SuperwindUI',
+        description: 'モダンなUIを超速で開発できる次世代のコンポーネントライブラリの利用方法を提供します。',
+        url: 'superwindui.netlify.app/docs',
+        siteName: 'SuperwindUI',
+        images: [
+            {
+                width: '1200',
+                height: '675',
+                url: 'https://superwindui.netlify.app/images/docs.png',
+            }
+        ],
+        locale: 'jp',
+        type: 'article',
+    }
 }
 
 export default async function StaticPage() {
