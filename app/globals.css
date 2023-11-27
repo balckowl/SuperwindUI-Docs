@@ -215,6 +215,7 @@ header .ham{
   border-left: 20px solid black;
   padding-left: 10px;
   margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .article figure{
@@ -223,7 +224,6 @@ header .ham{
 
 .article img{
   height: auto;
-  margin-bottom: 20px;
 }
 
 .article a{
