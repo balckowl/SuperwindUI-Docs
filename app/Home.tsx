@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import useWindowSize from "./hooks/useWindowSize";
+import { Button } from "superwindui"
 
 
 export default function Home() {
@@ -33,7 +34,8 @@ export default function Home() {
             <h3 className="hero-brand-name">SuperwindUI</h3>
             <h2><span ref={el}></span></h2>
             <p>ドキュメントがわかりにくい、従来のものはちょっとしたものを作るにはめんどくさすぎる</p>
-            <div className="docs-more"><Link href="/docs">使い方を見る</Link></div>
+            <Button txt={'使い方を見る'} link={'/docs'}/>
+            {/* <div className="docs-more"><Link href="/docs">使い方を見る</Link></div> */}
           </div>
           <div className="hero-img-box">
             <img src="/logo.png" alt="" />
