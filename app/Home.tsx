@@ -1,10 +1,10 @@
 "use client"
 
-import Link from "next/link";
 import { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import useWindowSize from "./hooks/useWindowSize";
-import { Button } from "superwindui"
+import Link from "next/link";
+import { motion } from 'framer-motion'
 
 
 export default function Home() {
@@ -31,11 +31,10 @@ export default function Home() {
       <div className="hero">
         <div className="container g-2">
           <div className="hero-text-box">
-            <h3 className="hero-brand-name">SuperwindUI</h3>
+            <motion.h3 className="hero-brand-name" initial={{ x: '100vw' }} animate={{ x: 0 }} transition={{ delay: 0.2 }}>SuperwindUI</motion.h3>
             <h2><span ref={el}></span></h2>
             <p>ドキュメントがわかりにくい、従来のものはちょっとしたものを作るにはめんどくさすぎる</p>
-            <Button txt={'使い方を見る'} link={'/docs'}/>
-            {/* <div className="docs-more"><Link href="/docs">使い方を見る</Link></div> */}
+            <div className="docs-more"><Link href="/docs">使い方を見る</Link></div>
           </div>
           <div className="hero-img-box">
             <img src="/logo.png" alt="" />
