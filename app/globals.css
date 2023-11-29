@@ -119,8 +119,13 @@ header .ham{
   transition: 0.3s all ease 1.0s;
 }
 
-.hero-img-box:hover .hero-img-filter-box{
+/* .hero-img-box:hover .hero-img-filter-box{
   background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);;
+} */
+
+.hero-img-box img{
+  width: 280px;
+  height: auto;
 }
 
 .cards{

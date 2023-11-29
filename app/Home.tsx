@@ -36,10 +36,10 @@ export default function Home() {
             <p>ドキュメントがわかりにくい、従来のものはちょっとしたものを作るにはめんどくさすぎる</p>
             <div className="docs-more"><Link href="/docs">使い方を見る</Link></div>
           </div>
-          <div className="hero-img-box">
-            <img src="/logo.png" alt="" />
+          <motion.div className="hero-img-box" initial={{rotate: 0}} animate={{rotate: 360}} transition={{type: 'spring', stiffness: 120}}>
+            <img src="/images/logo.png" alt="" />
             <div className="hero-img-filter-box"></div>
-          </div>
+          </motion.div>
         </div>
       </div>
 
