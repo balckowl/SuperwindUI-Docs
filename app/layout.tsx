@@ -4,7 +4,7 @@ import './globals.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
-const noto = Noto_Sans_JP({ 
+const noto = Noto_Sans_JP({
   weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-noto-sans-jp',
@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="3ZYRr54R8dBv0zGJx9NZd34Q7UDSPoEW40P2GY5timg" />
+      </head>
       <body className={noto.className}>
         <Header />
         <main>
