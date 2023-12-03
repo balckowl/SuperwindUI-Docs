@@ -70,7 +70,7 @@ export default function Home() {
                 <h3>初心者</h3>
               </div>
               <div className="card-text-box">
-                <p>CSSはあまりわからないけど綺麗なデザインで作ってみたい。</p>
+                <p>CSSはあまりわからないけど綺麗なデザインを簡単に作りたい。</p>
               </div>
             </div>
             <div className="card box-gray p-1">
@@ -79,7 +79,7 @@ export default function Home() {
                 <h3>見やすい</h3>
               </div>
               <div className="card-text-box">
-                <p>従来のCSSフレームワークに比べて、CSSを減らし、見やすいHTMLを実現。</p>
+                <p>従来のUIライブラリに比べて、コンポーネントを大きくし、見やすさUP。</p>
               </div>
             </div>
             <div className="card box-gray p-1">
@@ -88,7 +88,7 @@ export default function Home() {
                 <h3>超軽量</h3>
               </div>
               <div className="card-text-box">
-                <p>スタイルを固定化し、機能を制限した分とても軽量となっています。</p>
+                <p>スタイルを固定化し、機能を制限した分とても軽量となっている。</p>
               </div>
             </div>
             <div className="card box-gray p-1">
@@ -106,7 +106,7 @@ export default function Home() {
                 <h3>上級者</h3>
               </div>
               <div className="card-text-box">
-                <p>他のサービスを学びたい時のお手軽UI開発に。</p>
+                <p>他のサービスや言語を学びたい時のお手軽UI開発にも有効。</p>
               </div>
             </div>
             <div className="card box-gray p-1">
@@ -115,7 +115,7 @@ export default function Home() {
                 <h3>超速の開発</h3>
               </div>
               <div className="card-text-box">
-                <p>スタイルを固定化し、機能を制限した分とても軽量となっています。</p>
+                <p>多くのデフォルト値があり、設定するパラメータが少なく、超速の開発を実現。</p>
               </div>
             </div>
           </div>
