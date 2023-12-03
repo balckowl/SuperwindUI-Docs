@@ -18,7 +18,7 @@ const Header = () => {
                         <li className="/docs"><Link href="/docs">docs</Link></li>
                         <li className="/blog">blog</li>
                         <li><FontAwesomeIcon icon={faGithub} /></li>
-                        <li><FontAwesomeIcon icon={faNpm} /></li>
+                        <li><Link href="/https://www.npmjs.com/package/superwindui"><FontAwesomeIcon icon={faNpm} /></Link></li>
                     </ul>
                     <div className='ham' onClick={() => setIsActive(!isActive)}>
                         <img src="/ham.svg" alt="" />
